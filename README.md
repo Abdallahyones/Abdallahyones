@@ -1,6 +1,6 @@
 <hr>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&pause=2000&center=true&vCenter=true&random=false&width=1200&height=80&lines=%E2%9C%A8+Welcome+to+Abdullah's+Github+%E2%9C%A8" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&pause=2000&center=true&vCenter=true&random=false&width=1200&height=80&lines=Welcome+to+Abdullah's+Github" alt="Typing SVG" /></a>
 
 <h3 align="center">Computer Science Student</h3>
 <img align="right" width="150" src="https://cdnb.artstation.com/p/assets/images/images/028/991/999/original/anna-havrylyukh-.gif?1596125112" alt="coding" /> 
@@ -33,11 +33,11 @@
 
 <br>
 <hr>
-<br/>
 
-<h1 align="center">Programming Languages</h1>
-<div align="center">
-    <p>
+
+<h2 align="center">Programming Languages</h2>
+<div>
+    <p align="center">
         <img src="https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++" />
         <img src="https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white" alt="C#" />
         <img src="https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white" alt="Java" />
@@ -47,20 +47,17 @@
         <img src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white" alt="CSS" />
         <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
     </p>
-</div>
-
-<h1 align="center">Frameworks & Tools</h1>
-<div align="center">
-    <p>
+  <h2 align="center">Frameworks & Tools</h2>
+      <p align="center">
         <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white" alt="Spring Boot" />
         <img src="https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white" alt="Django" />
         <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" alt="Git" />
         <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
     </p>
 </div>
-<br/>
-<hr/>
-<br/>
+<!-- <br/> -->
+<!-- <hr/> -->
+<!-- <br/> -->
 
 <h1 align="center">Statistics:</h1>
 <br/>
