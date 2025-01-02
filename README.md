@@ -35,29 +35,38 @@
 <hr>
 <br/>
 
-<h1 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h1>
-<br/>
+<h1 align="center">Programming Languages</h1>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=,cpp,java,python,cs"  alt=""/><br>
-    <br/>    
-    <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,html,css,javascript,django,spring,postman" alt="" />
-    <br/>
-    <br/>
-    <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> 
-    <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
-    <img src="https://skillicons.dev/icons?i=github" alt="" />
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+    <p>
+        <img src="https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++" />
+        <img src="https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white" alt="C#" />
+        <img src="https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/-SQL-4479A1?logo=sql&logoColor=white" alt="SQL" />
+        <img src="https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white" alt="HTML" />
+        <img src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white" alt="CSS" />
+        <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
+    </p>
 </div>
 
+<h1 align="center">Frameworks & Tools</h1>
+<div align="center">
+    <p>
+        <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white" alt="Spring Boot" />
+        <img src="https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white" alt="Django" />
+        <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
+    </p>
+</div>
 <br/>
 <hr/>
 <br/>
 
 <h1 align="center">Statistics:</h1>
 <br/>
-<p align="center">&nbsp;
+<!-- <p align="center">&nbsp; 
 <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Abdallahyones&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-<br/>
+<br/> -->
 <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=Abdallahyones&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
 <br/>
 <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Abdallahyones&langs_count=6&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
