@@ -9,11 +9,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Abdallahyones&label=Profile%20views&color=0e75b6&style=flat" alt="Abdallahyones" /> </p>
 
 - 🌱 I’m actively enhancing my skills and expertise in **Software Engineering** and **Competitive Programming**.
-
-<br>
-<hr>
-
-### About Me 🧑‍💻
 - 🏫 **Education**: Cairo University, Faculty of Computers and Artificial Intelligence.
 - 🎯 **Programming Enthusiast**: Solved more than 1,500 problems on top competitive programming platforms.
 - 🌍 **Competitive Programming**: 
