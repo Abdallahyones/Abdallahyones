@@ -16,9 +16,9 @@
 <div> 
     <h3 align="left">Reach me at 📫:</h3>
     <ul>
-        <li><a href="mailto:aliabdelrahman2005@gmail.com"><img src="https://img.shields.io/badge/-Email-c14438?logo=gmail&logoColor=white" alt="Email"/></a></li>
-        <li><a href="https://www.linkedin.com/in/ali-abdelrahman1/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"/></a></li>
-        <li><a href="https://codeforces.com/profile/Alielsalek96"><img src="https://img.shields.io/badge/-Codeforces-1F8ACF?logo=codeforces&logoColor=white" alt="Codeforces"/></a></li>
+        <li><a href="mailto:abdallhmo828@gmail.com"><img src="https://img.shields.io/badge/-Email-c14438?logo=gmail&logoColor=white" alt="Email"/></a></li>
+        <li><a href="https://www.linkedin.com/in/abdullah-younes/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"/></a></li>
+        <li><a href="https://codeforces.com/profile/B0udy"><img src="https://img.shields.io/badge/-Codeforces-1F8ACF?logo=codeforces&logoColor=white" alt="Codeforces"/></a></li>
     </ul>
 </div>
 
