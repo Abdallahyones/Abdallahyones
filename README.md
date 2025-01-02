@@ -19,7 +19,6 @@
 - 🌍 **Competitive Programming**: 
   - ECPC 2024: 20rd place in qualifications and advanced to finals (94th out of 370+ teams).
 
-<br>
 <hr>
 
 <div> 
@@ -31,7 +30,6 @@
     </ul>
 </div>
 
-<br>
 <hr>
 
 
