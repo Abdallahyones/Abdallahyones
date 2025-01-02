@@ -14,12 +14,10 @@
 <hr>
 
 <div> 
-    <h3 align="left">How to reach me:</h3>
-    <a href="mailto:abdallhmo828@gmail.com"><img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red"  alt="gmail"/></a>
-    <h3 align="left">Know more about me:</h3>
-    <a href="https://www.linkedin.com/in/abdullah-yones/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abdullah_yones" height="30" width="40" /></a>
-    <a href="https://leetcode.com/abdullahyones" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abdullahyones" height="30" width="40" /></a>
+### Reach me at 📫:
+- [![Email](https://img.shields.io/badge/-Email-c14438?logo=gmail&logoColor=white)](mailto:aliaabdallhmo828@gmail.com)
+- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-younes/)
+- [![Codeforces](https://img.shields.io/badge/-Codeforces-1F8ACF?logo=codeforces&logoColor=white)](https://codeforces.com/profile/B0udy)
 </div>
 
 <br>
