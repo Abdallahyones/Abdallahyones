@@ -13,6 +13,15 @@
 <br>
 <hr>
 
+### About Me 🧑‍💻
+- 🏫 **Education**: Cairo University, Faculty of Computers and Artificial Intelligence.
+- 🎯 **Programming Enthusiast**: Solved more than 1,500 problems on top competitive programming platforms.
+- 🌍 **Competitive Programming**: 
+  - ECPC 2024: 20rd place in qualifications and advanced to finals (94th out of 370+ teams).
+
+<br>
+<hr>
+
 <div> 
     <h3 align="left">Reach me at 📫:</h3>
     <ul>
