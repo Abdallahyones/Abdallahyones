@@ -1,278 +1,256 @@
- <div align="center">
+# 🏋️ Titan — Gym Community Management System
 
-# Hi, I'm Abdullah Younes 👋
+Titan is a mobile-first, role-based platform that digitizes day-to-day gym operations while building an interactive, AI-supported fitness experience for members. It brings gym administration, coaching, attendance, personalized training, and member-retention analytics into a single system for **admins**, **coaches**, and **clients**.
 
-### Software Engineer | Backend Developer | Competitive Programmer
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1500&center=true&vCenter=true&width=800&lines=Building+Scalable+Backend+Applications;Java+%7C+Spring+Boot+%7C+Python;Codeforces+Expert+%7C+2%C3%97+ACPC+Finalist;Problem+Solver+%7C+Software+Engineer)](https://git.io/typing-svg)
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Abdallahyones&label=Profile%20Views&color=blue&style=flat)](https://github.com/Abdallahyones)
-[![GitHub followers](https://img.shields.io/github/followers/Abdallahyones?label=Followers&style=social)](https://github.com/Abdallahyones)
-
-</div>
+> Graduation Project — Cairo University, Faculty of Computing and Artificial Intelligence, Department of Computer Science (2025–2026)
 
 ---
 
-## 👨‍💻 About Me
+## 📖 Table of Contents
 
-I'm a Computer Science graduate from the **Faculty of Computers and Artificial Intelligence, Cairo University**, passionate about software engineering, backend development, and solving complex problems.
-
-My background combines strong problem-solving skills gained through competitive programming with practical software development experience.
-
-- 🎓 B.Sc. in Computer Science – Cairo University.
-- 💻 Backend Developer focused on **Java, Spring Boot, Python, and RESTful APIs**.
-- 🏅 **Codeforces Expert (1800+)**, with 4,000+ problems solved.
-- 🏆 **2× ACPC Finalist (2025 & 2026)**.
-- 🥈 **2nd Place – SOLVEX 2026 Championship**.
-- 👨‍🏫 Former Head of Coaching at ICPC-FCAI, mentoring competitive programmers.
-- 🚀 Currently an **Enterprise Java Developer Trainee at NTI**, specializing in Java enterprise development and Spring Boot.
-
-I'm interested in designing maintainable systems, understanding software architecture, writing clean code, and continuously improving my engineering skills.
-
----
-
-## 🏆 Achievements
-
-| Competition | Achievement |
-|---|---|
-| ACPC 2026 | 2nd consecutive ACPC qualification |
-| ECPC 2026 Qualifications | 5th Place – 200+ teams |
-| ECPC 2026 Finals | 18th Place – 300+ teams |
-| SOLVEX 2026 Championship | 2nd Place – National Competition |
-| ECPC 2025 Qualifications | 11th Place – 200+ teams |
-| ECPC 2025 Finals | 25th Place – 220+ teams |
-| Codeforces | Expert – 1800+ Rating |
-| Codeforces | Top 50 in Egypt – Top 5% Worldwide |
-
-### Competitive Programming
-
-Competitive programming has played a major role in developing my problem-solving and analytical thinking skills.
-
-- Solved 4,000+ problems across competitive programming platforms.
-- Participated in 150+ Codeforces contests.
-- Strong knowledge of Data Structures and Algorithms.
-- Experience with Dynamic Programming, Graph Theory, and Advanced Algorithms.
-- Qualified for the ACPC regional competition twice representing Cairo University.
-
-[![Codeforces](https://img.shields.io/badge/Codeforces-Expert-1F8ACF?logo=codeforces&logoColor=white)](https://codeforces.com/profile/B0udy)
-
-[View My Codeforces Profile](https://codeforces.com/profile/B0udy)
+- [About the Project](#about-the-project)
+- [Key Features](#key-features)
+- [Tech Stack](#tech-stack)
+- [System Architecture](#system-architecture)
+- [AI & Machine Learning](#ai--machine-learning)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Testing](#testing)
+- [Security](#security)
+- [Limitations & Future Work](#limitations--future-work)
+- [Team](#team)
+- [License](#license)
+- [References](#references)
 
 ---
 
-## 💼 Professional Experience
+## About the Project
 
-### SAP ABAP Developer Intern
-**Egyptian International Motors (EIM)** | Smart Village, Egypt
+Many gyms still run on manual processes or disconnected tools, leading to inefficient workflows, poor communication, and little personalization for members. **Titan** solves this with a single mobile platform that:
 
-*August 2025 – September 2025*
-
-- Developed SAP ABAP screens and reports supporting enterprise data-entry and retrieval workflows.
-- Implemented search and display functionality for business data.
-- Added input validation and error handling to improve the reliability of data-entry operations.
-- Gained practical exposure to SAP ERP systems and enterprise application development.
-
-### AI Trainer – Coding
-**Scale AI** | Remote
-
-*November 2024 – March 2025*
-
-- Solved and evaluated complex programming tasks using C++ and Python.
-- Worked on Data Structures, Algorithms, and problem-solving challenges.
-- Designed edge-case and stress tests to evaluate solution correctness and efficiency.
-- Reviewed AI-generated code and identified logical and implementation errors.
-- Prepared technical explanations, editorials, and reference solutions.
+- Automates gym administration (memberships, subscriptions, attendance, scheduling, announcements).
+- Enforces strict **role-based access control (RBAC)** for three user types — Admins, Coaches, and Clients.
+- Generates **AI-personalized training plans** using an LLM agent.
+- Predicts **member churn risk** with a trained ML model, feeding into a targeted retention-offer workflow.
+- Encourages engagement through a **gamified badge system**.
 
 ---
 
-## 🚀 Featured Projects
+## Key Features
 
-### 1. Titan – Gym Management Platform
+### 🛠️ Administrator
+- Multi-gym creation and management (machine inventory, hours, location).
+- Client & coach invitations, membership activation/suspension, subscription tracking.
+- Class approval workflow, capacity management, and scheduling oversight.
+- Announcements targeted to clients, coaches, or both.
+- Revenue, attendance, and membership analytics dashboard.
+- AI-driven churn-risk dashboard with retention offer creation and recipient review.
 
-<sub>Graduation Project</sub>
+### 🧑‍🏫 Coach
+- Personalized cross-gym timetable.
+- Class request workflow (add/update/remove), pending admin approval.
+- Attendance visibility for assigned sessions.
+- Gym-specific announcements and profile management.
 
-**Technologies:** Flutter, FastAPI, PostgreSQL, Redis, Docker, SQLAlchemy, scikit-learn
-
-A comprehensive gym management platform designed to manage gym operations and improve member engagement.
-
-**Key Features & Contributions**
-
-- Developed backend services using FastAPI to support the application's business logic.
-- Implemented JWT Authentication and Role-Based Access Control (RBAC) for Admin, Coach, and Client roles.
-- Developed QR-based attendance functionality.
-- Designed relational database schemas and optimized PostgreSQL queries using indexing.
-- Contributed to the integration of a Decision Tree machine learning model for predicting customer churn, achieving **88.5% accuracy**.
-- Contributed to automated testing using Pytest, with **612 tests passing (100% pass rate)**.
-- Worked on Flutter client-side features and application integration.
-
-**Technical Highlights**
-- RESTful API development.
-- Authentication and authorization.
-- Database design and optimization.
-- Machine Learning integration.
-- Automated testing.
-
-[View Project Repository](https://github.com/shaza2407/Titan_Gym-Mangement-Application)
+### 🏃 Client
+- Profile & fitness-goal management, gym enrollment.
+- QR-code based gym check-in with subscription validation.
+- Class browsing and enrollment with conflict/capacity checks.
+- **AI-generated personalized training plans** (goal, level, duration, equipment-aware), exportable as PDF, with per-exercise progress tracking.
+- Gamified **achievement badges** for attendance streaks and milestones.
+- Gym community space and in-app/push notifications.
 
 ---
 
-### 2. Learning Management System (LMS)
+## Tech Stack
 
-**Technologies:** Java, Spring Boot, PostgreSQL, REST APIs
-
-A backend application designed to manage academic activities and interactions between students and instructors.
-
-**Key Features & Contributions**
-
-- Developed modular RESTful APIs using Spring Boot.
-- Applied Clean Architecture principles to organize application layers.
-- Implemented the Generic Repository pattern to improve code reusability.
-- Developed Role-Based Access Control (RBAC) for instructor operations.
-- Implemented course management, student enrollment, quizzes, and assignments.
-- Developed student workflows for quiz participation and assignment submissions.
-- Designed relational database schemas for managing academic records.
-- Added input validation and error handling.
-
-**Technical Highlights**
-- Layered Architecture.
-- Object-Oriented Programming.
-- Design Patterns.
-- Spring Boot REST APIs.
-- PostgreSQL integration.
-
-[Explore My GitHub Repositories](https://github.com/Abdallahyones?tab=repositories)
+| Layer            | Technology                                              |
+|-------------------|----------------------------------------------------------|
+| Mobile Frontend   | Flutter (Dart) — single codebase for Android & iOS       |
+| Backend           | FastAPI (Python), SQLAlchemy (async)                      |
+| Database          | PostgreSQL, hosted on Supabase                            |
+| Authentication    | JWT (HS256) + bcrypt password hashing                     |
+| Push Notifications| Firebase Cloud Messaging (FCM)                             |
+| AI / ML           | scikit-learn (Decision Tree churn model), Gemini API (training-plan generation) |
+| Testing           | pytest, AsyncMock, Postman                                 |
+| Tooling           | Git/GitHub, Figma, Draw.io, Linear                          |
 
 ---
 
-## 🧠 Technical Skills
+## System Architecture
 
-### Programming Languages
+Titan follows a layered architecture:
 
-![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+```
+Presentation Layer   → Flutter mobile app (Auth, Profiles, Timetable, QR Attendance, AI Plans, Analytics)
+Application Layer    → FastAPI backend (Identity & RBAC, Membership & Billing, Scheduling,
+                       Attendance, Churn Prediction, Retention Offers, Notifications)
+Data Layer           → Supabase PostgreSQL (SQLAlchemy + Alembic migrations)
+External Services    → Email provider, Firebase FCM, Google Gemini API
+```
 
-### Backend Development
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-02569B)
-
-### Databases & Data Management
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
-
-### Tools & Technologies
-
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-
-### Computer Science Fundamentals
-
-- Object-Oriented Programming (OOP).
-- SOLID Principles and Design Patterns.
-- Data Structures and Algorithms.
-- Database Management Systems.
-- Operating Systems.
-- Computer Networks.
-- Software Architecture and System Design.
-- Concurrency and Multithreading.
-- Dynamic Programming and Graph Theory.
-- Unit Testing and Agile/Scrum.
+- **Security:** JWT authentication, RBAC, HS256 + HTTPS-only, bcrypt password hashing.
+- **Performance targets:** <2s response time, 1,000+ concurrent users, <30s churn-prediction batch, ≥85% model accuracy.
 
 ---
 
-## 👨‍🏫 Leadership & Community Activities
+## AI & Machine Learning
 
-### ICPC-FCAI-CU Community
-**Competitive Programming Coach & Technical Mentor**
+### Churn Prediction
+- **Model:** Decision Tree Classifier (scikit-learn), 3-class output — `High` / `Mid` / `Low` risk.
+- **Accuracy:** 88.5% on a held-out test set (3,200 train / 800 test, stratified split).
+- **Features:** 12 weeks of bucketed attendance levels plus 7 engineered statistics (weighted recency score, days since last visit, days until subscription expiry, etc.).
+- **Training data:** Built from the public [Gym Customers Features & Churn](https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn) Kaggle dataset, with a custom Poisson-based simulation to reconstruct weekly attendance patterns.
+- **Serving:** Predictions run on-demand per gym via `GET /retention/dashboard/{gym_id}`, feeding the admin retention-offer workflow. Predictions are **advisory only** — no action is taken without admin approval.
 
-*September 2023 – August 2026*
-
-- Mentored and trained 1,000+ students in competitive programming.
-- Delivered training in Data Structures, Algorithms, and Dynamic Programming.
-- Helped students understand advanced Graph Algorithms and problem-solving techniques.
-- Organized programming contests and designed problem sets.
-- Prepared reference solutions and automated testing scripts.
-- Contributed to building a competitive programming community at Cairo University.
-
-### Egyptian Collegiate Programming Contest (ECPC)
-**Problem Tester & Scientific Committee Member – 2026**
-
-- Participated in testing ECPC Qualifications problem sets (Days 6 & 8).
-- Developed edge-case test suites.
-- Validated solutions against time and memory constraints.
-- Helped ensure problem correctness and contest quality.
+### Personalized Training Plans
+- Uses the **Gemini API** as an LLM agent to generate multi-week, equipment-aware workout plans from a client's goal, level, and availability — rather than static templates.
+- Supports progress tracking at the day/week/plan level, auto-completion, and PDF export.
 
 ---
 
-## 🎓 Education & Training
+## Screenshots
 
-### National Telecommunication Institute (NTI)
-**Enterprise Java Developer Trainee**
-
-Digital Egypt Youth (DEY) – HireReady Initiative
-
-*October 2026 – Present*
-
-Focus areas:
-- Advanced Java Development.
-- Enterprise Java Technologies.
-- Spring Framework and Spring Boot.
-- Spring Data JPA and Hibernate.
-- RESTful Web Services.
-- Backend Application Development.
-
-### Cairo University
-**Faculty of Computers and Artificial Intelligence**
-
-B.Sc. in Computer Science
-
-*October 2022 – August 2026*
-
-GPA: 3.51 / 4.00
+> Add your app screenshots here, e.g.:
+>
+> | Sign Up | Client Dashboard | QR Check-in |
+> |---|---|---|
+> | ![Sign Up](docs/screenshots/sign_up.png) | ![Dashboard](docs/screenshots/client_dashboard.png) | ![QR Check-in](docs/screenshots/qr_checkin.png) |
 
 ---
 
-## 📊 GitHub Statistics
+## Getting Started
 
-<div align="center">
+### Prerequisites
+- Python 3.11+
+- Flutter SDK (3.x) with Android/iOS toolchains
+- A Supabase project (PostgreSQL) or local PostgreSQL instance
+- Firebase project (for push notifications)
+- A Google Gemini API key (for AI training plans)
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abdallahyones&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+### Backend Setup
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdallahyones&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+```bash
+# Clone the repo
+git clone https://github.com/shaza2407/Titan_Gym-Mangement-Application.git
+cd Titan_Gym-Mangement-Application/backend
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdallahyones&theme=tokyonight&hide_border=true" />
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
-</div>
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment variables
+cp .env.example .env
+# then fill in: DATABASE_URL, JWT_SECRET, FIREBASE credentials, GEMINI_API_KEY, SMTP settings
+
+# Run database migrations
+alembic upgrade head
+
+# Start the API server
+uvicorn app.main:app --reload
+```
+
+### Frontend Setup
+
+```bash
+cd ../frontend
+
+# Install dependencies
+flutter pub get
+
+# Point the app at your backend base URL (see lib/config or .env)
+
+# Run on a connected device/emulator
+flutter run
+```
 
 ---
 
-## 📬 Connect With Me
+## Project Structure
 
-<div align="center">
+```
+Titan_Gym-Mangement-Application/
+├── backend/
+│   ├── app/
+│   │   ├── models/          # SQLAlchemy models
+│   │   ├── schemas/         # Pydantic schemas
+│   │   ├── services/        # Business logic (admin, client, coach, ML, notifications)
+│   │   ├── routers/         # FastAPI route definitions
+│   │   └── main.py
+│   ├── ml/                  # Churn prediction: training scripts + saved artifacts (.pkl)
+│   ├── tests/                # pytest unit tests
+│   └── alembic/              # Database migrations
+├── frontend/
+│   └── lib/
+│       ├── screens/          # Admin / Coach / Client UI
+│       ├── services/         # API client, auth, caching
+│       └── widgets/
+└── docs/                     # Diagrams, ERD, mockups, reports, screenshots
+```
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullahyounes.cs@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullah-younes/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdallahyones)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACF?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/B0udy)
+---
 
-</div>
+## Testing
 
-<div align="center">
+- **612 unit tests** (pytest + AsyncMock) covering admin, auth, client, coach, ML, and notification services — 100% pass rate.
+- **Postman collection** covering every REST endpoint (auth, admin, client, coach flows), verified against a live backend.
+- **Performance profiling** via Chrome DevTools across core user journeys — most API requests complete in under 2 seconds.
 
-### "Great software is built through continuous learning, problem-solving, and attention to detail."
+Run the backend test suite:
+```bash
+cd backend
+pytest
+```
 
-⭐ Thanks for visiting my profile!
+---
 
-</div>
+## Security
+
+- JWT (HS256) authentication with bcrypt-hashed passwords.
+- Role-Based Access Control enforced at the API layer for Admin / Coach / Client.
+- Email verification and password-reset flows via signed, time-limited tokens.
+- QR-based attendance validated server-side against membership status to prevent forged or duplicate check-ins.
+- Sensitive configuration kept in `.env`, excluded from version control.
+
+---
+
+## Limitations & Future Work
+
+- No payment integration yet — subscriptions are managed by admins.
+- No wearable-device integration.
+- No CI/CD pipeline or containerization (Docker) yet.
+- No formal load/concurrency testing (current benchmarks are single-user, client-side profiling).
+
+Planned: payment gateway integration, wearable support, Docker + CI/CD, hosted deployment, and load testing.
+
+---
+
+## Team
+
+Built by a team of five Computer Science students at Cairo University, under the supervision of **Dr. Manar Elkady** and **TA. Nourhan Atef**:
+
+- Shaza Ahmed Mohamed Wagdy
+- Ahmed Ashraf Attia Mabrouk
+- Aisha Ibrahim Abdulsalam Kotb
+- Rania Rafat Edwar
+- Abdullah Mohamed Abdullah Mohamed
+
+---
+
+## License
+
+This project was developed as an academic graduation project.
+
+---
+
+## References
+
+- [Gym Customers Features & Churn — Kaggle](https://www.kaggle.com/datasets/adrianvinueza/gym-customers-features-and-churn)
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Supabase Documentation](https://supabase.com/docs)
+- [Google Gemini API](https://ai.google.dev/gemini-api/docs/api-key)
